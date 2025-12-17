@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>382</width>
+    <height>767</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>470</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(255,255,255,210);</string>
+    </property>
+    <property name="text">
+     <string>Rp 450.000</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>330</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>1 Bulan</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>610</y>
+      <width>291</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>💵 Bayar Tunai</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>650</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(
+    spread:pad,
+    x1:0, y1:0.5,
+    x2:1, y2:0.5,
+    stop:0 rgba(220, 60, 80, 255),     /* Ruby Red */
+    stop:1 rgba(150, 20, 40, 255)      /* Deep Ruby */
+);
+
+color: white;
+font-weight: bold;
+border-radius: 15px;
+padding: 10px 15px;
+border: none;
+</string>
+    </property>
+    <property name="text">
+     <string>Bayar Sekarang</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>460</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(
+    spread:pad,
+    x1:0, y1:0.505682,
+    x2:1, y2:0.477,
+    stop:0 rgba(80, 220, 120, 255),    /* Hijau Terang Fresh */
+    stop:1 rgba(30, 160, 80, 255)      /* Hijau Lebih Gelap */
+);
+
+color: rgba(255, 255, 255, 255);  /* Teks putih */
+font-weight: bold;
+border-radius: 15px;
+padding: 10px 15px;
+border: none;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>311</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(
+    spread:pad,
+    x1:0, y1:0.5,
+    x2:1, y2:0.5,
+    stop:0 rgba(220, 60, 80, 255),     /* Ruby Red */
+    stop:1 rgba(150, 20, 40, 255)      /* Deep Ruby */
+);
+
+color: white;
+font-weight: bold;
+border-radius: 15px;
+padding: 10px 15px;
+border: none;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>520</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Metode Pembayaran</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>351</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(255,255,255,210);
+background-color: #ffffff;      /* Putih seperti di gambar */
+    color: #4A4A4A;                 /* Teks abu tua */
+    font-size: 10pt; 
+ font-weight: bold;               /* Sesuaikan selera */
+    
+    border-radius: 10px;            /* Biar pill / rounded */
+    border: 1px solid #E0E0E0;      /* Garis tipis abu terang (optional) */
+
+    padding-left: 12px;             /* Padding dalam */
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>310</y>
+      <width>281</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tanggal                                Durasi</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>330</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Auto</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>370</y>
+      <width>311</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ffffff;      /* Putih seperti di gambar */
+    color: #4A4A4A;                 /* Teks abu tua */
+    font-size: 10pt;                /* Sesuaikan selera */
+    
+    border-radius: 10px;            /* Biar pill / rounded */
+    border: 1px solid #E0E0E0;      /* Garis tipis abu terang (optional) */
+
+    padding-left: 12px;             /* Padding dalam */
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>80</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Pembayaran Kos</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>200</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(255,255,255,210);</string>
+    </property>
+    <property name="text">
+     <string>1 Orang 
+
+ Kamar mandi Dalam</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>550</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>📱 E- WALLET</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>580</y>
+      <width>291</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string> 💳 Transfer Bank</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>380</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Rincian Biaya</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>470</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Total Pembayaran</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>410</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Rp1.200.000 </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton {
+    /* Background Gradient Default */
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, 
+        stop:0 rgba(20, 47, 78, 219), /* Biru Tua */
+        stop:1 rgba(85, 98, 112, 226)); /* Abu-abu Kebiruan */
+        
+    color: rgba(255, 255, 255, 255); /* Teks Putih Solid (lebih jelas) */
+    border-radius: 8px; /* Menggunakan 8px agar konsisten dengan elemen lain */
+    border: none; /* Pastikan tidak ada border bawaan */
+    padding: 10px 25px; /* Padding untuk tombol agar terlihat tebal */
+    font-size: 9px; /* Ukuran font yang konsisten */
+    font-weight: bold;
+}
+
+QPushButton#pushButton:hover {
+    /* Gradient Hover: Warna sedikit lebih cerah/kontras */
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, 
+        stop:0 rgba(40, 67, 98, 219), /* Biru Tua Sedikit Cerah */
+        stop:1 rgba(105, 118, 132, 226)); /* Abu-abu Kebiruan Sedikit Cerah */
+}
+
+QPushButton#pushButton:pressed {
+    /* Efek Pressed (Tombol Tertekan) */
+    padding-left: 5px;
+    padding-top: 5px;
+    /* Memberikan ilusi tombol bergerak ke dalam */
+    background-color: rgba(105, 118, 132, 255); /* Warna solid yang lebih gelap/tertarik */
+    border-style: inset; /* Opsi lain: inset border */
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;- Kembali</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>140</y>
+      <width>111</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/pembayarankosvvip/Foto/vvip.jpeg);
+background-size: cover;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>160</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(255,255,255,210);</string>
+    </property>
+    <property name="text">
+     <string>KOS VVIP</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>280</y>
+      <width>291</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Periode Sewa</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>label_17</zorder>
+   <zorder>label_10</zorder>
+   <zorder>radioButton_3</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>label_15</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_18</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_9</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_13</zorder>
+   <zorder>radioButton</zorder>
+   <zorder>radioButton_2</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_16</zorder>
+   <zorder>label_14</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_7</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>382</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="pembayarankosvvip.qrc"/>
+ </resources>
+ <connections/>
+</ui>

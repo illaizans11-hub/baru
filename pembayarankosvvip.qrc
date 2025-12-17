@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="pembayarankosvvip">
+    <file>Foto/vvip.jpeg</file>
+  </qresource>
+</RCC>

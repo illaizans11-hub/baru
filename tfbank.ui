@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>354</width>
+    <height>668</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>351</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(255,255,255,210);
+background-color: #ffffff;      /* Putih seperti di gambar */
+    color: #4A4A4A;                 /* Teks abu tua */
+    font-size: 10pt; 
+ font-weight: bold;               /* Sesuaikan selera */
+    
+    border-radius: 10px;            /* Biar pill / rounded */
+    border: 1px solid #E0E0E0;      /* Garis tipis abu terang (optional) */
+
+    padding-left: 12px;             /* Padding dalam */
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>321</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(
+    spread:pad,
+    x1:0, y1:0.505682,
+    x2:1, y2:0.477,
+    stop:0 rgba(90, 150, 255, 255),    /* Biru Medium Terang */
+    stop:1 rgba(40, 100, 210, 255)     /* Biru Medium Agak Gelap */
+);
+
+color: rgba(255, 255, 255, 255);  
+font-weight: bold;
+border-radius: 15px;
+padding: 10px 15px;
+border: none;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>40</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Transfer Bank</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>100</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(255,255,255,210);</string>
+    </property>
+    <property name="text">
+     <string>Transfer ke bank</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>301</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(
+    spread:pad,
+    x1:0, y1:0.505682,
+    x2:1, y2:0.477,
+    stop:0 rgba(110, 170, 255, 255),   /* Biru terang fresh */
+    stop:1 rgba(60, 120, 220, 255)     /* Biru lebih gelap untuk depth */
+);
+
+color: rgba(255, 255, 255, 255);
+font-weight: bold;
+border-radius: 15px;
+padding: 10px 15px;
+border: none;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>140</y>
+      <width>54</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>260</y>
+      <width>311</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ffffff;      /* Putih seperti di gambar */
+    color: #4A4A4A;                 /* Teks abu tua */
+    font-size: 10pt;                /* Sesuaikan selera */
+    
+    border-radius: 10px;            /* Biar pill / rounded */
+    border: 1px solid #E0E0E0;      /* Garis tipis abu terang (optional) */
+
+    padding-left: 12px;             /* Padding dalam */
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>370</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Upload Bukti Transfer</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>560</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(
+    spread:pad,
+    x1:0, y1:0.505682,
+    x2:1, y2:0.477,
+    stop:0 rgba(90, 150, 255, 255),    /* Biru Medium Terang */
+    stop:1 rgba(40, 100, 210, 255)     /* Biru Medium Agak Gelap */
+);
+
+color: rgba(255, 255, 255, 255);  
+font-weight: bold;
+border-radius: 15px;
+padding: 10px 15px;
+border: none;
+</string>
+    </property>
+    <property name="text">
+     <string>Upload </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>400</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(
+    spread:pad,
+    x1:0, y1:0.505682,
+    x2:1, y2:0.477,
+    stop:0 rgba(90, 150, 255, 255),    /* Biru Medium Terang */
+    stop:1 rgba(40, 100, 210, 255)     /* Biru Medium Agak Gelap */
+);
+
+color: rgba(255, 255, 255, 255);  
+font-weight: bold;
+border-radius: 15px;
+padding: 10px 15px;
+border: none;
+</string>
+    </property>
+    <property name="text">
+     <string>Tambah Foto</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>140</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bank
+ 
+No.Rekening 
+
+Atas Nama</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>140</y>
+      <width>111</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(255,255,255,210);</string>
+    </property>
+    <property name="text">
+     <string>BCA
+ 
+1234567890 
+
+ Kos Mewah</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>354</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1147</width>
+    <height>692</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>721</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/foto/C:/Users/DIMAS/Downloads/Gambar WhatsApp 2025-11-21 pukul 12.18.08_2e6410ed.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>50</y>
+      <width>1041</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/datapenghuni/Foto/bg.jpg);
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelDataPenghuni">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>80</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(255,255,255,210);</string>
+    </property>
+    <property name="text">
+     <string>Data Penghuni</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>120</y>
+      <width>901</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 9), stop:0.375 rgba(0, 0, 0, 50), stop:0.835227 rgba(0, 0, 0, 75));
+border-radius:10px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditCari">
+    <property name="geometry">
+     <rect>
+      <x>155</x>
+      <y>134</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:10px;</string>
+    </property>
+    <property name="text">
+     <string>Cari</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonTambah">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>130</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Style untuk tombol tambah */
+QPushButton#pushButtonTambah {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop:1 rgba(85, 98, 112, 226));
+    color: rgba(255, 255, 255, 210);
+    border-radius: 5px;
+    border: none;
+}
+
+QPushButton#pushButtonTambah:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(40, 67, 98, 219), stop:1 rgba(105, 118, 132, 226));
+}
+
+QPushButton#pushButtonTambah:pressed {
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: rgba(105, 118, 132, 200);
+}</string>
+    </property>
+    <property name="text">
+     <string>Tambah</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonEdit">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>130</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Style untuk tombol edit */
+QPushButton#pushButtonEdit {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop:1 rgba(85, 98, 112, 226));
+    color: rgba(255, 255, 255, 210);
+    border-radius: 5px;
+    border: none;
+}
+
+QPushButton#pushButtonEdit:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(40, 67, 98, 219), stop:1 rgba(105, 118, 132, 226));
+}
+
+QPushButton#pushButtonEdit:pressed {
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: rgba(105, 118, 132, 200);
+}</string>
+    </property>
+    <property name="text">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonRefresh">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>130</y>
+      <width>100</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Style untuk tombol hapus */
+QPushButton#pushButtonRefresh {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop:1 rgba(85, 98, 112, 226));
+    color: rgba(255, 255, 255, 210);
+    border-radius: 5px;
+    border: none;
+}
+
+QPushButton#pushButtonRefresh:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(40, 67, 98, 219), stop:1 rgba(105, 118, 132, 226));
+}
+
+QPushButton#pushButtonRefresh:pressed {
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: rgba(105, 118, 132, 200);
+}</string>
+    </property>
+    <property name="text">
+     <string>Refresh</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>70</y>
+      <width>1021</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 9), stop:0.375 rgba(0, 0, 0, 50), stop:0.835227 rgba(0, 0, 0, 75));
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidgetTabel">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>190</y>
+      <width>951</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>256</width>
+      <height>192</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 5px;
+</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nama</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nama Lengkap</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Telepon</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nomor kamar</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Kategori Kamar</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>harga</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>tipe pembayaran</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>bulan ke</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>metode bayar</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>status</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>tanggal booking</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="pushButtonKembali">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>580</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Style untuk tombol kembali */
+QPushButton#pushButtonKembali {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop:1 rgba(85, 98, 112, 226));
+    color: rgba(255, 255, 255, 210);
+    border-radius: 5px;
+    border: none;
+}
+
+QPushButton#pushButtonKembali:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(40, 67, 98, 219), stop:1 rgba(105, 118, 132, 226));
+}
+
+QPushButton#pushButtonKembali:pressed {
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: rgba(105, 118, 132, 200);
+}</string>
+    </property>
+    <property name="text">
+     <string>Kembali</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonCari">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>130</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Style untuk tombol cari */
+QPushButton#pushButtonCari {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop:1 rgba(85, 98, 112, 226));
+    color: rgba(255, 255, 255, 210);
+    border-radius: 5px;
+    border: none;
+}
+
+QPushButton#pushButtonCari:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(40, 67, 98, 219), stop:1 rgba(105, 118, 132, 226));
+}
+
+QPushButton#pushButtonCari:pressed {
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: rgba(105, 118, 132, 200);
+}</string>
+    </property>
+    <property name="text">
+     <string>Cari</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonHapus">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>130</y>
+      <width>100</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Style untuk tombol hapus */
+QPushButton#pushButtonHapus {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop:1 rgba(85, 98, 112, 226));
+    color: rgba(255, 255, 255, 210);
+    border-radius: 5px;
+    border: none;
+}
+
+QPushButton#pushButtonHapus:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(40, 67, 98, 219), stop:1 rgba(105, 118, 132, 226));
+}
+
+QPushButton#pushButtonHapus:pressed {
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: rgba(105, 118, 132, 200);
+}</string>
+    </property>
+    <property name="text">
+     <string>Hapus</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1147</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="datapenghuni.qrc"/>
+ </resources>
+ <connections/>
+</ui>

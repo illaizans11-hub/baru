@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/vip">
+        <file>foto/vip.jpeg</file>
+    </qresource>
+
+    <qresource prefix="/vvip">
+        <file>foto/vvip.jpeg</file>
+    </qresource>
+
+    <qresource prefix="/biasa">
+        <file>foto/biasa.jpeg</file>
+    </qresource>
+
+    <qresource prefix="/header">
+        <file>foto/gerbang.jpg</file>
+    </qresource>
+</RCC>

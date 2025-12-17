@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>723</width>
+    <height>1012</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Verdana</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>560</y>
+      <width>161</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/vip/vip.jpeg);
+background-size: cover;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>320</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton {
+    /* Background Gradient Default */
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, 
+        stop:0 rgba(20, 47, 78, 219), /* Biru Tua */
+        stop:1 rgba(85, 98, 112, 226)); /* Abu-abu Kebiruan */
+        
+    color: rgba(255, 255, 255, 255); /* Teks Putih Solid (lebih jelas) */
+    border-radius: 8px; /* Menggunakan 8px agar konsisten dengan elemen lain */
+    border: none; /* Pastikan tidak ada border bawaan */
+    padding: 10px 25px; /* Padding untuk tombol agar terlihat tebal */
+    font-size: 14px; /* Ukuran font yang konsisten */
+    font-weight: bold;
+}
+
+QPushButton#pushButton:hover {
+    /* Gradient Hover: Warna sedikit lebih cerah/kontras */
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, 
+        stop:0 rgba(40, 67, 98, 219), /* Biru Tua Sedikit Cerah */
+        stop:1 rgba(105, 118, 132, 226)); /* Abu-abu Kebiruan Sedikit Cerah */
+}
+
+QPushButton#pushButton:pressed {
+    /* Efek Pressed (Tombol Tertekan) */
+    padding-left: 5px;
+    padding-top: 5px;
+    /* Memberikan ilusi tombol bergerak ke dalam */
+    background-color: rgba(105, 118, 132, 255); /* Warna solid yang lebih gelap/tertarik */
+    border-style: inset; /* Opsi lain: inset border */
+}</string>
+    </property>
+    <property name="text">
+     <string>CARI </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>370</y>
+      <width>481</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(
+        spread:pad, 
+        x1:0, y1:0, 
+        x2:0, y2:0.715909, 
+        /* Mulai dengan Abu-abu Sangat Terang (hampir putih) */
+        stop:0 rgba(240, 240, 240, 200),  
+        /* Tengah: Abu-abu Terang */
+        stop:0.375 rgba(220, 220, 220, 200), 
+        /* Akhir: Abu-abu Agak Sedang */
+        stop:0.835227 rgba(200, 200, 200, 200) 
+    );
+    
+    border-radius: 20px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>390</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>19</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgba(140, 100, 70, 1);
+</string>
+    </property>
+    <property name="text">
+     <string>Rp450.000 </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>760</y>
+      <width>151</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/vvip/vvip.jpeg);
+background-size: cover;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_biasa">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>370</y>
+      <width>161</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/biasa/biasa.jpeg);
+background-size: cover;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="detailButton_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>500</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#detailButton_2 {
+    background-color: transparent; /* Background clear */
+    color: rgba(255, 255, 255, 255); 
+    border: 2px solid rgba(255, 255, 255, 180); /* Border putih transparan */
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Hover: border lebih terang + sedikit glow */
+QPushButton#detailButton_2:hover {
+    background-color: rgba(255, 255, 255, 20); /* Transparan tipis */
+    border: 2px solid rgba(255, 255, 255, 220);
+}
+
+/* Pressed: background berubah jadi GRADIENT biru */
+QPushButton#detailButton_2:pressed {
+    background-color: qlineargradient(
+        spread:pad, 
+        x1:0, y1:0.505682, 
+        x2:1, y2:0.477, 
+        stop:0 rgba(20, 47, 78, 219),   /* Biru tua */
+        stop:1 rgba(85, 98, 112, 226)   /* Biru abu */
+    );
+    border: 2px solid rgba(255, 255, 255, 255); /* Border tetap putih */
+    padding-left: 5px;
+    padding-top: 5px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Detail Kamar </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>651</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/header/gerbang.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>390</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>23</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>KOS BIASA </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>500</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_3 {
+    /* Background Gradient Default */
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, 
+        stop:0 rgba(20, 47, 78, 219), /* Biru Tua */
+        stop:1 rgba(85, 98, 112, 226)); /* Abu-abu Kebiruan */
+        
+    color: rgba(255, 255, 255, 255); /* Teks Putih Solid (lebih jelas) */
+    border-radius: 8px; /* Menggunakan 8px agar konsisten dengan elemen lain */
+    border: none; /* Pastikan tidak ada border bawaan */
+    padding: 10px 25px; /* Padding untuk tombol agar terlihat tebal */
+    font-size: 14px; /* Ukuran font yang konsisten */
+    font-weight: bold;
+}
+
+QPushButton#pushButton_3:hover {
+    /* Gradient Hover: Warna sedikit lebih cerah/kontras */
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, 
+        stop:0 rgba(40, 67, 98, 219), /* Biru Tua Sedikit Cerah */
+        stop:1 rgba(105, 118, 132, 226)); /* Abu-abu Kebiruan Sedikit Cerah */
+}
+
+QPushButton#pushButton_3:pressed {
+    /* Efek Pressed (Tombol Tertekan) */
+    padding-left: 5px;
+    padding-top: 5px;
+    /* Memberikan ilusi tombol bergerak ke dalam */
+    background-color: rgba(105, 118, 132, 255); /* Warna solid yang lebih gelap/tertarik */
+    border-style: inset; /* Opsi lain: inset border */
+}</string>
+    </property>
+    <property name="text">
+     <string>Pesan </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="detailButton_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#detailButton_8 {
+    /* Background Gradient Default */
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, 
+        stop:0 rgba(20, 47, 78, 219), /* Biru Tua */
+        stop:1 rgba(85, 98, 112, 226)); /* Abu-abu Kebiruan */
+        
+    color: rgba(255, 255, 255, 255); /* Teks Putih Solid (lebih jelas) */
+    border-radius: 8px; /* Menggunakan 8px agar konsisten dengan elemen lain */
+    border: none; /* Pastikan tidak ada border bawaan */
+    padding: 10px 25px; /* Padding untuk tombol agar terlihat tebal */
+    font-size: 14px; /* Ukuran font yang konsisten */
+    font-weight: bold;
+}
+
+QPushButton#detailButton_8:hover {
+    /* Gradient Hover: Warna sedikit lebih cerah/kontras */
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, 
+        stop:0 rgba(40, 67, 98, 219), /* Biru Tua Sedikit Cerah */
+        stop:1 rgba(105, 118, 132, 226)); /* Abu-abu Kebiruan Sedikit Cerah */
+}
+
+QPushButton#detailButton_8:pressed {
+    /* Efek Pressed (Tombol Tertekan) */
+    padding-left: 5px;
+    padding-top: 5px;
+    /* Memberikan ilusi tombol bergerak ke dalam */
+    background-color: rgba(105, 118, 132, 255); /* Warna solid yang lebih gelap/tertarik */
+    border-style: inset; /* Opsi lain: inset border */
+}</string>
+    </property>
+    <property name="text">
+     <string>Kembali</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>320</y>
+      <width>311</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(
+    spread:pad,
+    x1:0, y1:0, x2:0, y2:1,
+    stop:0 rgba(0, 0, 0, 9),
+    stop:0.375 rgba(0, 0, 0, 50),
+    stop:0.835227 rgba(0, 0, 0, 75)
+);
+border-radius: 20px;
+
+border-bottom: 2px solid white;
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>651</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 9), stop:0.375 rgba(0, 0, 0, 50), stop:0.835227 rgba(0, 0, 0, 75));
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>100</y>
+      <width>311</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Century Schoolbook</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(255,255,255,210);</string>
+    </property>
+    <property name="text">
+     <string>Tipe - Tipe Kamar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>180</y>
+      <width>221</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(255,255,255,210);</string>
+    </property>
+    <property name="text">
+     <string>Yuk Pilih Kamar!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>570</y>
+      <width>481</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(
+        spread:pad, 
+        x1:0, y1:0, 
+        x2:0, y2:0.715909, 
+        /* Mulai dengan Abu-abu Sangat Terang (hampir putih) */
+        stop:0 rgba(240, 240, 240, 200),  
+        /* Tengah: Abu-abu Terang */
+        stop:0.375 rgba(220, 220, 220, 200), 
+        /* Akhir: Abu-abu Agak Sedang */
+        stop:0.835227 rgba(200, 200, 200, 200) 
+    );
+    
+    border-radius: 20px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>760</y>
+      <width>491</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(
+        spread:pad, 
+        x1:0, y1:0, 
+        x2:0, y2:0.715909, 
+        /* Mulai dengan Abu-abu Sangat Terang (hampir putih) */
+        stop:0 rgba(240, 240, 240, 200),  
+        /* Tengah: Abu-abu Terang */
+        stop:0.375 rgba(220, 220, 220, 200), 
+        /* Akhir: Abu-abu Agak Sedang */
+        stop:0.835227 rgba(200, 200, 200, 200) 
+    );
+    
+    border-radius: 20px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>10</y>
+      <width>321</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #333333; /* Abu-abu gelap yang elegan */
+    font-family: &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 30px;
+    font-weight: bold; /* Gunakan bold, bukan super bold */
+    padding-bottom: 10px</string>
+    </property>
+    <property name="text">
+     <string>✨ KOS MEWAH ✨</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>520</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 9), stop:0.375 rgba(0, 0, 0, 50), stop:0.835227 rgba(0, 0, 0, 75));
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string>⭐️⭐️⭐️⭐️⭐️</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>580</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>25</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>KOS VIP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>690</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_2 {
+    background-color: transparent; /* Background clear */
+    color: rgba(255, 255, 255, 255); 
+    border: 2px solid rgba(255, 255, 255, 180); /* Border putih transparan */
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Hover: border lebih terang + sedikit glow */
+QPushButton#pushButton_2:hover {
+    background-color: rgba(255, 255, 255, 20); /* Transparan tipis */
+    border: 2px solid rgba(255, 255, 255, 220);
+}
+
+/* Pressed: background berubah jadi GRADIENT biru */
+QPushButton#pushButton_2:pressed {
+    background-color: qlineargradient(
+        spread:pad, 
+        x1:0, y1:0.505682, 
+        x2:1, y2:0.477, 
+        stop:0 rgba(20, 47, 78, 219),   /* Biru tua */
+        stop:1 rgba(85, 98, 112, 226)   /* Biru abu */
+    );
+    border: 2px solid rgba(255, 255, 255, 255); /* Border tetap putih */
+    padding-left: 5px;
+    padding-top: 5px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Detail Kamar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>690</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_4 {
+    /* Background Gradient Default */
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, 
+        stop:0 rgba(20, 47, 78, 219), /* Biru Tua */
+        stop:1 rgba(85, 98, 112, 226)); /* Abu-abu Kebiruan */
+        
+    color: rgba(255, 255, 255, 255); /* Teks Putih Solid (lebih jelas) */
+    border-radius: 8px; /* Menggunakan 8px agar konsisten dengan elemen lain */
+    border: none; /* Pastikan tidak ada border bawaan */
+    padding: 10px 25px; /* Padding untuk tombol agar terlihat tebal */
+    font-size: 14px; /* Ukuran font yang konsisten */
+    font-weight: bold;
+}
+
+QPushButton#pushButton_4:hover {
+    /* Gradient Hover: Warna sedikit lebih cerah/kontras */
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, 
+        stop:0 rgba(40, 67, 98, 219), /* Biru Tua Sedikit Cerah */
+        stop:1 rgba(105, 118, 132, 226)); /* Abu-abu Kebiruan Sedikit Cerah */
+}
+
+QPushButton#pushButton_4:pressed {
+    /* Efek Pressed (Tombol Tertekan) */
+    padding-left: 5px;
+    padding-top: 5px;
+    /* Memberikan ilusi tombol bergerak ke dalam */
+    background-color: rgba(105, 118, 132, 255); /* Warna solid yang lebih gelap/tertarik */
+    border-style: inset; /* Opsi lain: inset border */
+}</string>
+    </property>
+    <property name="text">
+     <string>Pesan</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>580</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>19</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgba(140, 100, 70, 1);
+</string>
+    </property>
+    <property name="text">
+     <string>Rp750.000 </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>710</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 9), stop:0.375 rgba(0, 0, 0, 50), stop:0.835227 rgba(0, 0, 0, 75));
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string>⭐️⭐️⭐️⭐️⭐️</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>770</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>25</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>KOS VVIP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>900</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_5 {
+    background-color: transparent; /* Background clear */
+    color: rgba(255, 255, 255, 255); 
+    border: 2px solid rgba(255, 255, 255, 180); /* Border putih transparan */
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Hover: border lebih terang + sedikit glow */
+QPushButton#pushButton_5:hover {
+    background-color: rgba(255, 255, 255, 20); /* Transparan tipis */
+    border: 2px solid rgba(255, 255, 255, 220);
+}
+
+/* Pressed: background berubah jadi GRADIENT biru */
+QPushButton#pushButton_5:pressed {
+    background-color: qlineargradient(
+        spread:pad, 
+        x1:0, y1:0.505682, 
+        x2:1, y2:0.477, 
+        stop:0 rgba(20, 47, 78, 219),   /* Biru tua */
+        stop:1 rgba(85, 98, 112, 226)   /* Biru abu */
+    );
+    border: 2px solid rgba(255, 255, 255, 255); /* Border tetap putih */
+    padding-left: 5px;
+    padding-top: 5px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Detail Kamar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>900</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_6 {
+    /* Background Gradient Default */
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, 
+        stop:0 rgba(20, 47, 78, 219), /* Biru Tua */
+        stop:1 rgba(85, 98, 112, 226)); /* Abu-abu Kebiruan */
+        
+    color: rgba(255, 255, 255, 255); /* Teks Putih Solid (lebih jelas) */
+    border-radius: 8px; /* Menggunakan 8px agar konsisten dengan elemen lain */
+    border: none; /* Pastikan tidak ada border bawaan */
+    padding: 10px 25px; /* Padding untuk tombol agar terlihat tebal */
+    font-size: 14px; /* Ukuran font yang konsisten */
+    font-weight: bold;
+}
+
+QPushButton#pushButton_6:hover {
+    /* Gradient Hover: Warna sedikit lebih cerah/kontras */
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, 
+        stop:0 rgba(40, 67, 98, 219), /* Biru Tua Sedikit Cerah */
+        stop:1 rgba(105, 118, 132, 226)); /* Abu-abu Kebiruan Sedikit Cerah */
+}
+
+QPushButton#pushButton_6:pressed {
+    /* Efek Pressed (Tombol Tertekan) */
+    padding-left: 5px;
+    padding-top: 5px;
+    /* Memberikan ilusi tombol bergerak ke dalam */
+    background-color: rgba(105, 118, 132, 255); /* Warna solid yang lebih gelap/tertarik */
+    border-style: inset; /* Opsi lain: inset border */
+}</string>
+    </property>
+    <property name="text">
+     <string>Pesan</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>770</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>19</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgba(140, 100, 70, 1);
+</string>
+    </property>
+    <property name="text">
+     <string>Rp1.200.000</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>920</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 9), stop:0.375 rgba(0, 0, 0, 50), stop:0.835227 rgba(0, 0, 0, 75));
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string>⭐️⭐️⭐️⭐️⭐️</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>380</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgba(255,255,255,230);  /* Putih */
+background-color: qlineargradient(
+    spread:pad,
+    x1:0, y1:0,
+    x2:0, y2:0.715909,
+    stop:0 rgba(180, 170, 150, 255),
+    stop:0.5 rgba(160, 150, 135, 255),
+    stop:1 rgba(130, 120, 105, 255)
+);
+
+</string>
+    </property>
+    <property name="text">
+     <string>Tersedia</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>420</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>/ bulan</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_23">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>440</y>
+      <width>421</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ffffff;      /* Putih seperti di gambar */
+    color: #4A4A4A;                 /* Teks abu tua */
+    font-size: 9pt;                /* Sesuaikan selera */
+    
+    border-radius: 10px;            /* Biar pill / rounded */
+    border: 1px solid #E0E0E0;      /* Garis tipis abu terang (optional) */
+
+    padding-left: 12px;             /* Padding dalam */
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;</string>
+    </property>
+    <property name="text">
+     <string>👤 1 Guest     🛏️1 Bed       📐3x4 m      🚽Km Luar   💨free Kipas</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>220</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(255,255,255,210);
+background-color: #ffffff;      /* Putih seperti di gambar */
+    color: #4A4A4A;                 /* Teks abu tua */
+    font-size: 8pt; 
+   font-weight: bold;               /* Sesuaikan selera */
+    
+    border-radius: 10px;            /* Biar pill / rounded */
+    border: 1px solid #E0E0E0;      /* Garis tipis abu terang (optional) */
+
+    padding-left: 12px;             /* Padding dalam */
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;</string>
+    </property>
+    <property name="text">
+     <string>         🔒
+Keamanan 24/7</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_24">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>220</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(255,255,255,210);
+background-color: #ffffff;      /* Putih seperti di gambar */
+    color: #4A4A4A;                 /* Teks abu tua */
+    font-size: 8pt; 
+ font-weight: bold;               /* Sesuaikan selera */
+    
+    border-radius: 10px;            /* Biar pill / rounded */
+    border: 1px solid #E0E0E0;      /* Garis tipis abu terang (optional) */
+
+    padding-left: 12px;             /* Padding dalam */
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;</string>
+    </property>
+    <property name="text">
+     <string>          📶
+WiFi Super Cepat</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_25">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>220</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(255,255,255,210);
+background-color: #ffffff;      /* Putih seperti di gambar */
+    color: #4A4A4A;                 /* Teks abu tua */
+    font-size: 8pt;
+ font-weight: bold;                /* Sesuaikan selera */
+    
+    border-radius: 10px;            /* Biar pill / rounded */
+    border: 1px solid #E0E0E0;      /* Garis tipis abu terang (optional) */
+
+    padding-left: 12px;             /* Padding dalam */
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;</string>
+    </property>
+    <property name="text">
+     <string>          📍
+Lokasi Strategis</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>620</y>
+      <width>54</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>/ bulan</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_27">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>570</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgba(255,255,255,230);  /* Putih */
+background-color: qlineargradient(
+    spread:pad,
+    x1:0, y1:0,
+    x2:0, y2:0.715909,
+    stop:0 rgba(180, 170, 150, 255),
+    stop:0.5 rgba(160, 150, 135, 255),
+    stop:1 rgba(130, 120, 105, 255)
+);</string>
+    </property>
+    <property name="text">
+     <string>Tersedia</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_28">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>640</y>
+      <width>421</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ffffff;      /* Putih seperti di gambar */
+    color: #4A4A4A;                 /* Teks abu tua */
+    font-size: 9pt;                /* Sesuaikan selera */
+    
+    border-radius: 10px;            /* Biar pill / rounded */
+    border: 1px solid #E0E0E0;      /* Garis tipis abu terang (optional) */
+
+    padding-left: 12px;             /* Padding dalam */
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;</string>
+    </property>
+    <property name="text">
+     <string>👤1 Guest    🛏️ 1 Bed      📐4x4 m²   🚽Km Dalam   💨free Kipas</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_29">
+    <property name="geometry">
+     <rect>
+      <x>113</x>
+      <y>770</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgba(255,255,255,230);  /* Putih */
+background-color: qlineargradient(
+    spread:pad,
+    x1:0, y1:0,
+    x2:0, y2:0.715909,
+    stop:0 rgba(180, 170, 150, 255),
+    stop:0.5 rgba(160, 150, 135, 255),
+    stop:1 rgba(130, 120, 105, 255)
+);
+</string>
+    </property>
+    <property name="text">
+     <string>Tersedia</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_30">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>820</y>
+      <width>54</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> / bulan</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_31">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>850</y>
+      <width>421</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ffffff;      /* Putih seperti di gambar */
+    color: #4A4A4A;                 /* Teks abu tua */
+    font-size: 8pt;                /* Sesuaikan selera */
+    
+    border-radius: 10px;            /* Biar pill / rounded */
+    border: 1px solid #E0E0E0;      /* Garis tipis abu terang (optional) */
+
+    padding-left: 12px;             /* Padding dalam */
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;</string>
+    </property>
+    <property name="text">
+     <string>👤1 Guest   🛏️1 King Bed   📐5x5 m²    🚽Km Dalam    🌡️AC</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>723</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../pbo/detailkamar.qrc"/>
+ </resources>
+ <connections/>
+</ui>

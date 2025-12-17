@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="dasbordpenghuni">
+    <file>Foto/penghuni.jpeg</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="pembayarankosvip">
+    <file>Foto/vip.jpeg</file>
+  </qresource>
+</RCC>
